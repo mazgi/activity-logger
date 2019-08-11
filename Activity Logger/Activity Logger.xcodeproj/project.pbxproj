@@ -12,6 +12,13 @@
 		EB79968B22FFFD2C004632FB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB79968922FFFD2C004632FB /* MainMenu.xib */; };
 		EB79969722FFFD2C004632FB /* Activity_LoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB79969622FFFD2C004632FB /* Activity_LoggerTests.swift */; };
 		EB7996A222FFFD2C004632FB /* Activity_LoggerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7996A122FFFD2C004632FB /* Activity_LoggerUITests.swift */; };
+		EB7996B623000142004632FB /* WindowInformationConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7996AF23000142004632FB /* WindowInformationConfig.swift */; };
+		EB7996B723000142004632FB /* PersistenceStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7996B023000142004632FB /* PersistenceStore.swift */; };
+		EB7996B823000142004632FB /* WindowListGather.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7996B123000142004632FB /* WindowListGather.swift */; };
+		EB7996B923000142004632FB /* WindowInformationRaw.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7996B223000142004632FB /* WindowInformationRaw.swift */; };
+		EB7996BA23000142004632FB /* Scheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7996B323000142004632FB /* Scheduler.swift */; };
+		EB7996BB23000142004632FB /* WindowImageCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7996B423000142004632FB /* WindowImageCapture.swift */; };
+		EB7996BC23000142004632FB /* WindowInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7996B523000142004632FB /* WindowInformation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +51,13 @@
 		EB79969D22FFFD2C004632FB /* Activity LoggerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Activity LoggerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB7996A122FFFD2C004632FB /* Activity_LoggerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity_LoggerUITests.swift; sourceTree = "<group>"; };
 		EB7996A322FFFD2C004632FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB7996AF23000142004632FB /* WindowInformationConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowInformationConfig.swift; sourceTree = "<group>"; };
+		EB7996B023000142004632FB /* PersistenceStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistenceStore.swift; sourceTree = "<group>"; };
+		EB7996B123000142004632FB /* WindowListGather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowListGather.swift; sourceTree = "<group>"; };
+		EB7996B223000142004632FB /* WindowInformationRaw.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowInformationRaw.swift; sourceTree = "<group>"; };
+		EB7996B323000142004632FB /* Scheduler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scheduler.swift; sourceTree = "<group>"; };
+		EB7996B423000142004632FB /* WindowImageCapture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowImageCapture.swift; sourceTree = "<group>"; };
+		EB7996B523000142004632FB /* WindowInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowInformation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +109,13 @@
 			isa = PBXGroup;
 			children = (
 				EB79968522FFFD2B004632FB /* AppDelegate.swift */,
+				EB7996B023000142004632FB /* PersistenceStore.swift */,
+				EB7996B323000142004632FB /* Scheduler.swift */,
+				EB7996B423000142004632FB /* WindowImageCapture.swift */,
+				EB7996B523000142004632FB /* WindowInformation.swift */,
+				EB7996AF23000142004632FB /* WindowInformationConfig.swift */,
+				EB7996B223000142004632FB /* WindowInformationRaw.swift */,
+				EB7996B123000142004632FB /* WindowListGather.swift */,
 				EB79968722FFFD2C004632FB /* Assets.xcassets */,
 				EB79968922FFFD2C004632FB /* MainMenu.xib */,
 				EB79968C22FFFD2C004632FB /* Info.plist */,
@@ -251,7 +272,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB7996BC23000142004632FB /* WindowInformation.swift in Sources */,
+				EB7996B823000142004632FB /* WindowListGather.swift in Sources */,
+				EB7996B623000142004632FB /* WindowInformationConfig.swift in Sources */,
 				EB79968622FFFD2B004632FB /* AppDelegate.swift in Sources */,
+				EB7996BA23000142004632FB /* Scheduler.swift in Sources */,
+				EB7996BB23000142004632FB /* WindowImageCapture.swift in Sources */,
+				EB7996B923000142004632FB /* WindowInformationRaw.swift in Sources */,
+				EB7996B723000142004632FB /* PersistenceStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
