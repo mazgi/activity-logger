@@ -22,12 +22,13 @@ But we planning the feature that stores activity logs to Object Storages like S3
 
 ## How to Use
 
-1. Launch this app.
-2. Select `Start activity logging` item on the `Log` menu bar item.
+1. Download the app from [Releases Page](https://github.com/mazgi/activity-logger/releases).
+2. Launch the app, sorry I'm an "unidentified" developer.
+3. Select `Start activity logging` item on the `Log` menu bar item.
 
 ![status bar](docs/images/status_bar_0.png)
 
-3. You can show your activity logs for select `Open log directory` item.
+4. You can show your activity logs for select `Open log directory` item.
 
 ![activity logs on finder](docs/images/finder_0.png)
 
