@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB79968622FFFD2B004632FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB79968522FFFD2B004632FB /* AppDelegate.swift */; };
+		EB79968822FFFD2C004632FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB79968722FFFD2C004632FB /* Assets.xcassets */; };
+		EB79968B22FFFD2C004632FB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB79968922FFFD2C004632FB /* MainMenu.xib */; };
+		EB79969722FFFD2C004632FB /* Activity_LoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB79969622FFFD2C004632FB /* Activity_LoggerTests.swift */; };
+		EB7996A222FFFD2C004632FB /* Activity_LoggerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7996A122FFFD2C004632FB /* Activity_LoggerUITests.swift */; };
+		EB7996B623000142004632FB /* WindowInformationConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7996AF23000142004632FB /* WindowInformationConfig.swift */; };
+		EB7996B723000142004632FB /* PersistenceStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7996B023000142004632FB /* PersistenceStore.swift */; };
+		EB7996B823000142004632FB /* WindowListGather.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7996B123000142004632FB /* WindowListGather.swift */; };
+		EB7996B923000142004632FB /* WindowInformationRaw.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7996B223000142004632FB /* WindowInformationRaw.swift */; };
+		EB7996BA23000142004632FB /* Scheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7996B323000142004632FB /* Scheduler.swift */; };
+		EB7996BB23000142004632FB /* WindowImageCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7996B423000142004632FB /* WindowImageCapture.swift */; };
+		EB7996BC23000142004632FB /* WindowInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7996B523000142004632FB /* WindowInformation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB79969322FFFD2C004632FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB79967A22FFFD2B004632FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB79968122FFFD2B004632FB;
+			remoteInfo = "Activity Logger";
+		};
+		EB79969E22FFFD2C004632FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB79967A22FFFD2B004632FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB79968122FFFD2B004632FB;
+			remoteInfo = "Activity Logger";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB79968222FFFD2B004632FB /* Activity Logger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Activity Logger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB79968522FFFD2B004632FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB79968722FFFD2C004632FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB79968A22FFFD2C004632FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		EB79968C22FFFD2C004632FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB79968D22FFFD2C004632FB /* Activity_Logger.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Activity_Logger.entitlements; sourceTree = "<group>"; };
+		EB79969222FFFD2C004632FB /* Activity LoggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Activity LoggerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB79969622FFFD2C004632FB /* Activity_LoggerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity_LoggerTests.swift; sourceTree = "<group>"; };
+		EB79969822FFFD2C004632FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB79969D22FFFD2C004632FB /* Activity LoggerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Activity LoggerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB7996A122FFFD2C004632FB /* Activity_LoggerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity_LoggerUITests.swift; sourceTree = "<group>"; };
+		EB7996A322FFFD2C004632FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB7996AF23000142004632FB /* WindowInformationConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowInformationConfig.swift; sourceTree = "<group>"; };
+		EB7996B023000142004632FB /* PersistenceStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistenceStore.swift; sourceTree = "<group>"; };
+		EB7996B123000142004632FB /* WindowListGather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowListGather.swift; sourceTree = "<group>"; };
+		EB7996B223000142004632FB /* WindowInformationRaw.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowInformationRaw.swift; sourceTree = "<group>"; };
+		EB7996B323000142004632FB /* Scheduler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scheduler.swift; sourceTree = "<group>"; };
+		EB7996B423000142004632FB /* WindowImageCapture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowImageCapture.swift; sourceTree = "<group>"; };
+		EB7996B523000142004632FB /* WindowInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowInformation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB79967F22FFFD2B004632FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB79968F22FFFD2C004632FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB79969A22FFFD2C004632FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB79967922FFFD2B004632FB = {
+			isa = PBXGroup;
+			children = (
+				EB79968422FFFD2B004632FB /* Activity Logger */,
+				EB79969522FFFD2C004632FB /* Activity LoggerTests */,
+				EB7996A022FFFD2C004632FB /* Activity LoggerUITests */,
+				EB79968322FFFD2B004632FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB79968322FFFD2B004632FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB79968222FFFD2B004632FB /* Activity Logger.app */,
+				EB79969222FFFD2C004632FB /* Activity LoggerTests.xctest */,
+				EB79969D22FFFD2C004632FB /* Activity LoggerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB79968422FFFD2B004632FB /* Activity Logger */ = {
+			isa = PBXGroup;
+			children = (
+				EB79968522FFFD2B004632FB /* AppDelegate.swift */,
+				EB7996B023000142004632FB /* PersistenceStore.swift */,
+				EB7996B323000142004632FB /* Scheduler.swift */,
+				EB7996B423000142004632FB /* WindowImageCapture.swift */,
+				EB7996B523000142004632FB /* WindowInformation.swift */,
+				EB7996AF23000142004632FB /* WindowInformationConfig.swift */,
+				EB7996B223000142004632FB /* WindowInformationRaw.swift */,
+				EB7996B123000142004632FB /* WindowListGather.swift */,
+				EB79968722FFFD2C004632FB /* Assets.xcassets */,
+				EB79968922FFFD2C004632FB /* MainMenu.xib */,
+				EB79968C22FFFD2C004632FB /* Info.plist */,
+				EB79968D22FFFD2C004632FB /* Activity_Logger.entitlements */,
+			);
+			path = "Activity Logger";
+			sourceTree = "<group>";
+		};
+		EB79969522FFFD2C004632FB /* Activity LoggerTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB79969622FFFD2C004632FB /* Activity_LoggerTests.swift */,
+				EB79969822FFFD2C004632FB /* Info.plist */,
+			);
+			path = "Activity LoggerTests";
+			sourceTree = "<group>";
+		};
+		EB7996A022FFFD2C004632FB /* Activity LoggerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB7996A122FFFD2C004632FB /* Activity_LoggerUITests.swift */,
+				EB7996A322FFFD2C004632FB /* Info.plist */,
+			);
+			path = "Activity LoggerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB79968122FFFD2B004632FB /* Activity Logger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB7996A622FFFD2C004632FB /* Build configuration list for PBXNativeTarget "Activity Logger" */;
+			buildPhases = (
+				EB79967E22FFFD2B004632FB /* Sources */,
+				EB79967F22FFFD2B004632FB /* Frameworks */,
+				EB79968022FFFD2B004632FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Activity Logger";
+			productName = "Activity Logger";
+			productReference = EB79968222FFFD2B004632FB /* Activity Logger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB79969122FFFD2C004632FB /* Activity LoggerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB7996A922FFFD2C004632FB /* Build configuration list for PBXNativeTarget "Activity LoggerTests" */;
+			buildPhases = (
+				EB79968E22FFFD2C004632FB /* Sources */,
+				EB79968F22FFFD2C004632FB /* Frameworks */,
+				EB79969022FFFD2C004632FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB79969422FFFD2C004632FB /* PBXTargetDependency */,
+			);
+			name = "Activity LoggerTests";
+			productName = "Activity LoggerTests";
+			productReference = EB79969222FFFD2C004632FB /* Activity LoggerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB79969C22FFFD2C004632FB /* Activity LoggerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB7996AC22FFFD2C004632FB /* Build configuration list for PBXNativeTarget "Activity LoggerUITests" */;
+			buildPhases = (
+				EB79969922FFFD2C004632FB /* Sources */,
+				EB79969A22FFFD2C004632FB /* Frameworks */,
+				EB79969B22FFFD2C004632FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB79969F22FFFD2C004632FB /* PBXTargetDependency */,
+			);
+			name = "Activity LoggerUITests";
+			productName = "Activity LoggerUITests";
+			productReference = EB79969D22FFFD2C004632FB /* Activity LoggerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB79967A22FFFD2B004632FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "HIDENORI MATSUKI";
+				TargetAttributes = {
+					EB79968122FFFD2B004632FB = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					EB79969122FFFD2C004632FB = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = EB79968122FFFD2B004632FB;
+					};
+					EB79969C22FFFD2C004632FB = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = EB79968122FFFD2B004632FB;
+					};
+				};
+			};
+			buildConfigurationList = EB79967D22FFFD2B004632FB /* Build configuration list for PBXProject "Activity Logger" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB79967922FFFD2B004632FB;
+			productRefGroup = EB79968322FFFD2B004632FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB79968122FFFD2B004632FB /* Activity Logger */,
+				EB79969122FFFD2C004632FB /* Activity LoggerTests */,
+				EB79969C22FFFD2C004632FB /* Activity LoggerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB79968022FFFD2B004632FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB79968822FFFD2C004632FB /* Assets.xcassets in Resources */,
+				EB79968B22FFFD2C004632FB /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB79969022FFFD2C004632FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB79969B22FFFD2C004632FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB79967E22FFFD2B004632FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB7996BC23000142004632FB /* WindowInformation.swift in Sources */,
+				EB7996B823000142004632FB /* WindowListGather.swift in Sources */,
+				EB7996B623000142004632FB /* WindowInformationConfig.swift in Sources */,
+				EB79968622FFFD2B004632FB /* AppDelegate.swift in Sources */,
+				EB7996BA23000142004632FB /* Scheduler.swift in Sources */,
+				EB7996BB23000142004632FB /* WindowImageCapture.swift in Sources */,
+				EB7996B923000142004632FB /* WindowInformationRaw.swift in Sources */,
+				EB7996B723000142004632FB /* PersistenceStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB79968E22FFFD2C004632FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB79969722FFFD2C004632FB /* Activity_LoggerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB79969922FFFD2C004632FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB7996A222FFFD2C004632FB /* Activity_LoggerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB79969422FFFD2C004632FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB79968122FFFD2B004632FB /* Activity Logger */;
+			targetProxy = EB79969322FFFD2C004632FB /* PBXContainerItemProxy */;
+		};
+		EB79969F22FFFD2C004632FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB79968122FFFD2B004632FB /* Activity Logger */;
+			targetProxy = EB79969E22FFFD2C004632FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB79968922FFFD2C004632FB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB79968A22FFFD2C004632FB /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB7996A422FFFD2C004632FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB7996A522FFFD2C004632FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		EB7996A722FFFD2C004632FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Activity Logger/Activity_Logger.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = EZ2T742X57;
+				INFOPLIST_FILE = "Activity Logger/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.mazgi.macos.Activity-Logger";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EB7996A822FFFD2C004632FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Activity Logger/Activity_Logger.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = EZ2T742X57;
+				INFOPLIST_FILE = "Activity Logger/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.mazgi.macos.Activity-Logger";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EB7996AA22FFFD2C004632FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = EZ2T742X57;
+				INFOPLIST_FILE = "Activity LoggerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.mazgi.macos.Activity-LoggerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Activity Logger.app/Contents/MacOS/Activity Logger";
+			};
+			name = Debug;
+		};
+		EB7996AB22FFFD2C004632FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = EZ2T742X57;
+				INFOPLIST_FILE = "Activity LoggerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.mazgi.macos.Activity-LoggerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Activity Logger.app/Contents/MacOS/Activity Logger";
+			};
+			name = Release;
+		};
+		EB7996AD22FFFD2C004632FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = EZ2T742X57;
+				INFOPLIST_FILE = "Activity LoggerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.mazgi.macos.Activity-LoggerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Activity Logger";
+			};
+			name = Debug;
+		};
+		EB7996AE22FFFD2C004632FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = EZ2T742X57;
+				INFOPLIST_FILE = "Activity LoggerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.mazgi.macos.Activity-LoggerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Activity Logger";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB79967D22FFFD2B004632FB /* Build configuration list for PBXProject "Activity Logger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB7996A422FFFD2C004632FB /* Debug */,
+				EB7996A522FFFD2C004632FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB7996A622FFFD2C004632FB /* Build configuration list for PBXNativeTarget "Activity Logger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB7996A722FFFD2C004632FB /* Debug */,
+				EB7996A822FFFD2C004632FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB7996A922FFFD2C004632FB /* Build configuration list for PBXNativeTarget "Activity LoggerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB7996AA22FFFD2C004632FB /* Debug */,
+				EB7996AB22FFFD2C004632FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB7996AC22FFFD2C004632FB /* Build configuration list for PBXNativeTarget "Activity LoggerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB7996AD22FFFD2C004632FB /* Debug */,
+				EB7996AE22FFFD2C004632FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB79967A22FFFD2B004632FB /* Project object */;
+}
