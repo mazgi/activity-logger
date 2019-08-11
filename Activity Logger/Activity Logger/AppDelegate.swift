@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  activity-logger
+//  Activity Logger
 //
-//  Created by HIDENORI MATSUKI on 2019/08/09.
+//  Created by HIDENORI MATSUKI on 2019/08/11.
 //  Copyright © 2019 HIDENORI MATSUKI. All rights reserved.
 //
 

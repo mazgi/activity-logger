@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:activity-logger/activity-logger.xcodeproj">
+      location = "self:Activity Logger.xcodeproj">
    </FileRef>
 </Workspace>

@@ -1,14 +1,14 @@
 //
-//  activity_loggerUITests.swift
-//  activity-loggerUITests
+//  Activity_LoggerUITests.swift
+//  Activity LoggerUITests
 //
-//  Created by HIDENORI MATSUKI on 2019/08/09.
+//  Created by HIDENORI MATSUKI on 2019/08/11.
 //  Copyright © 2019 HIDENORI MATSUKI. All rights reserved.
 //
 
 import XCTest
 
-class activity_loggerUITests: XCTestCase {
+class Activity_LoggerUITests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

@@ -7,61 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EB4A755E22FDB0C500760BB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4A755D22FDB0C500760BB0 /* AppDelegate.swift */; };
-		EB4A756022FDB0C600760BB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB4A755F22FDB0C600760BB0 /* Assets.xcassets */; };
-		EB4A756322FDB0C600760BB0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB4A756122FDB0C600760BB0 /* MainMenu.xib */; };
-		EB4A756F22FDB0C600760BB0 /* activity_loggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4A756E22FDB0C600760BB0 /* activity_loggerTests.swift */; };
-		EB4A757A22FDB0C600760BB0 /* activity_loggerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4A757922FDB0C600760BB0 /* activity_loggerUITests.swift */; };
+		EB79968622FFFD2B004632FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB79968522FFFD2B004632FB /* AppDelegate.swift */; };
+		EB79968822FFFD2C004632FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB79968722FFFD2C004632FB /* Assets.xcassets */; };
+		EB79968B22FFFD2C004632FB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB79968922FFFD2C004632FB /* MainMenu.xib */; };
+		EB79969722FFFD2C004632FB /* Activity_LoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB79969622FFFD2C004632FB /* Activity_LoggerTests.swift */; };
+		EB7996A222FFFD2C004632FB /* Activity_LoggerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7996A122FFFD2C004632FB /* Activity_LoggerUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		EB4A756B22FDB0C600760BB0 /* PBXContainerItemProxy */ = {
+		EB79969322FFFD2C004632FB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = EB4A755222FDB0C500760BB0 /* Project object */;
+			containerPortal = EB79967A22FFFD2B004632FB /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EB4A755922FDB0C500760BB0;
-			remoteInfo = "activity-logger";
+			remoteGlobalIDString = EB79968122FFFD2B004632FB;
+			remoteInfo = "Activity Logger";
 		};
-		EB4A757622FDB0C600760BB0 /* PBXContainerItemProxy */ = {
+		EB79969E22FFFD2C004632FB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = EB4A755222FDB0C500760BB0 /* Project object */;
+			containerPortal = EB79967A22FFFD2B004632FB /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EB4A755922FDB0C500760BB0;
-			remoteInfo = "activity-logger";
+			remoteGlobalIDString = EB79968122FFFD2B004632FB;
+			remoteInfo = "Activity Logger";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EB4A755A22FDB0C500760BB0 /* activity-logger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "activity-logger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB4A755D22FDB0C500760BB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EB4A755F22FDB0C600760BB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EB4A756222FDB0C600760BB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		EB4A756422FDB0C600760BB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EB4A756522FDB0C600760BB0 /* activity_logger.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = activity_logger.entitlements; sourceTree = "<group>"; };
-		EB4A756A22FDB0C600760BB0 /* activity-loggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "activity-loggerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB4A756E22FDB0C600760BB0 /* activity_loggerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = activity_loggerTests.swift; sourceTree = "<group>"; };
-		EB4A757022FDB0C600760BB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EB4A757522FDB0C600760BB0 /* activity-loggerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "activity-loggerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB4A757922FDB0C600760BB0 /* activity_loggerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = activity_loggerUITests.swift; sourceTree = "<group>"; };
-		EB4A757B22FDB0C600760BB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB79968222FFFD2B004632FB /* Activity Logger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Activity Logger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB79968522FFFD2B004632FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB79968722FFFD2C004632FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB79968A22FFFD2C004632FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		EB79968C22FFFD2C004632FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB79968D22FFFD2C004632FB /* Activity_Logger.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Activity_Logger.entitlements; sourceTree = "<group>"; };
+		EB79969222FFFD2C004632FB /* Activity LoggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Activity LoggerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB79969622FFFD2C004632FB /* Activity_LoggerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity_LoggerTests.swift; sourceTree = "<group>"; };
+		EB79969822FFFD2C004632FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB79969D22FFFD2C004632FB /* Activity LoggerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Activity LoggerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB7996A122FFFD2C004632FB /* Activity_LoggerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity_LoggerUITests.swift; sourceTree = "<group>"; };
+		EB7996A322FFFD2C004632FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EB4A755722FDB0C500760BB0 /* Frameworks */ = {
+		EB79967F22FFFD2B004632FB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB4A756722FDB0C600760BB0 /* Frameworks */ = {
+		EB79968F22FFFD2C004632FB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB4A757222FDB0C600760BB0 /* Frameworks */ = {
+		EB79969A22FFFD2C004632FB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -71,136 +71,136 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EB4A755122FDB0C500760BB0 = {
+		EB79967922FFFD2B004632FB = {
 			isa = PBXGroup;
 			children = (
-				EB4A755C22FDB0C500760BB0 /* activity-logger */,
-				EB4A756D22FDB0C600760BB0 /* activity-loggerTests */,
-				EB4A757822FDB0C600760BB0 /* activity-loggerUITests */,
-				EB4A755B22FDB0C500760BB0 /* Products */,
+				EB79968422FFFD2B004632FB /* Activity Logger */,
+				EB79969522FFFD2C004632FB /* Activity LoggerTests */,
+				EB7996A022FFFD2C004632FB /* Activity LoggerUITests */,
+				EB79968322FFFD2B004632FB /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EB4A755B22FDB0C500760BB0 /* Products */ = {
+		EB79968322FFFD2B004632FB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EB4A755A22FDB0C500760BB0 /* activity-logger.app */,
-				EB4A756A22FDB0C600760BB0 /* activity-loggerTests.xctest */,
-				EB4A757522FDB0C600760BB0 /* activity-loggerUITests.xctest */,
+				EB79968222FFFD2B004632FB /* Activity Logger.app */,
+				EB79969222FFFD2C004632FB /* Activity LoggerTests.xctest */,
+				EB79969D22FFFD2C004632FB /* Activity LoggerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EB4A755C22FDB0C500760BB0 /* activity-logger */ = {
+		EB79968422FFFD2B004632FB /* Activity Logger */ = {
 			isa = PBXGroup;
 			children = (
-				EB4A755D22FDB0C500760BB0 /* AppDelegate.swift */,
-				EB4A755F22FDB0C600760BB0 /* Assets.xcassets */,
-				EB4A756122FDB0C600760BB0 /* MainMenu.xib */,
-				EB4A756422FDB0C600760BB0 /* Info.plist */,
-				EB4A756522FDB0C600760BB0 /* activity_logger.entitlements */,
+				EB79968522FFFD2B004632FB /* AppDelegate.swift */,
+				EB79968722FFFD2C004632FB /* Assets.xcassets */,
+				EB79968922FFFD2C004632FB /* MainMenu.xib */,
+				EB79968C22FFFD2C004632FB /* Info.plist */,
+				EB79968D22FFFD2C004632FB /* Activity_Logger.entitlements */,
 			);
-			path = "activity-logger";
+			path = "Activity Logger";
 			sourceTree = "<group>";
 		};
-		EB4A756D22FDB0C600760BB0 /* activity-loggerTests */ = {
+		EB79969522FFFD2C004632FB /* Activity LoggerTests */ = {
 			isa = PBXGroup;
 			children = (
-				EB4A756E22FDB0C600760BB0 /* activity_loggerTests.swift */,
-				EB4A757022FDB0C600760BB0 /* Info.plist */,
+				EB79969622FFFD2C004632FB /* Activity_LoggerTests.swift */,
+				EB79969822FFFD2C004632FB /* Info.plist */,
 			);
-			path = "activity-loggerTests";
+			path = "Activity LoggerTests";
 			sourceTree = "<group>";
 		};
-		EB4A757822FDB0C600760BB0 /* activity-loggerUITests */ = {
+		EB7996A022FFFD2C004632FB /* Activity LoggerUITests */ = {
 			isa = PBXGroup;
 			children = (
-				EB4A757922FDB0C600760BB0 /* activity_loggerUITests.swift */,
-				EB4A757B22FDB0C600760BB0 /* Info.plist */,
+				EB7996A122FFFD2C004632FB /* Activity_LoggerUITests.swift */,
+				EB7996A322FFFD2C004632FB /* Info.plist */,
 			);
-			path = "activity-loggerUITests";
+			path = "Activity LoggerUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EB4A755922FDB0C500760BB0 /* activity-logger */ = {
+		EB79968122FFFD2B004632FB /* Activity Logger */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EB4A757E22FDB0C600760BB0 /* Build configuration list for PBXNativeTarget "activity-logger" */;
+			buildConfigurationList = EB7996A622FFFD2C004632FB /* Build configuration list for PBXNativeTarget "Activity Logger" */;
 			buildPhases = (
-				EB4A755622FDB0C500760BB0 /* Sources */,
-				EB4A755722FDB0C500760BB0 /* Frameworks */,
-				EB4A755822FDB0C500760BB0 /* Resources */,
+				EB79967E22FFFD2B004632FB /* Sources */,
+				EB79967F22FFFD2B004632FB /* Frameworks */,
+				EB79968022FFFD2B004632FB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "activity-logger";
-			productName = "activity-logger";
-			productReference = EB4A755A22FDB0C500760BB0 /* activity-logger.app */;
+			name = "Activity Logger";
+			productName = "Activity Logger";
+			productReference = EB79968222FFFD2B004632FB /* Activity Logger.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EB4A756922FDB0C600760BB0 /* activity-loggerTests */ = {
+		EB79969122FFFD2C004632FB /* Activity LoggerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EB4A758122FDB0C600760BB0 /* Build configuration list for PBXNativeTarget "activity-loggerTests" */;
+			buildConfigurationList = EB7996A922FFFD2C004632FB /* Build configuration list for PBXNativeTarget "Activity LoggerTests" */;
 			buildPhases = (
-				EB4A756622FDB0C600760BB0 /* Sources */,
-				EB4A756722FDB0C600760BB0 /* Frameworks */,
-				EB4A756822FDB0C600760BB0 /* Resources */,
+				EB79968E22FFFD2C004632FB /* Sources */,
+				EB79968F22FFFD2C004632FB /* Frameworks */,
+				EB79969022FFFD2C004632FB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EB4A756C22FDB0C600760BB0 /* PBXTargetDependency */,
+				EB79969422FFFD2C004632FB /* PBXTargetDependency */,
 			);
-			name = "activity-loggerTests";
-			productName = "activity-loggerTests";
-			productReference = EB4A756A22FDB0C600760BB0 /* activity-loggerTests.xctest */;
+			name = "Activity LoggerTests";
+			productName = "Activity LoggerTests";
+			productReference = EB79969222FFFD2C004632FB /* Activity LoggerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		EB4A757422FDB0C600760BB0 /* activity-loggerUITests */ = {
+		EB79969C22FFFD2C004632FB /* Activity LoggerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EB4A758422FDB0C600760BB0 /* Build configuration list for PBXNativeTarget "activity-loggerUITests" */;
+			buildConfigurationList = EB7996AC22FFFD2C004632FB /* Build configuration list for PBXNativeTarget "Activity LoggerUITests" */;
 			buildPhases = (
-				EB4A757122FDB0C600760BB0 /* Sources */,
-				EB4A757222FDB0C600760BB0 /* Frameworks */,
-				EB4A757322FDB0C600760BB0 /* Resources */,
+				EB79969922FFFD2C004632FB /* Sources */,
+				EB79969A22FFFD2C004632FB /* Frameworks */,
+				EB79969B22FFFD2C004632FB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EB4A757722FDB0C600760BB0 /* PBXTargetDependency */,
+				EB79969F22FFFD2C004632FB /* PBXTargetDependency */,
 			);
-			name = "activity-loggerUITests";
-			productName = "activity-loggerUITests";
-			productReference = EB4A757522FDB0C600760BB0 /* activity-loggerUITests.xctest */;
+			name = "Activity LoggerUITests";
+			productName = "Activity LoggerUITests";
+			productReference = EB79969D22FFFD2C004632FB /* Activity LoggerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EB4A755222FDB0C500760BB0 /* Project object */ = {
+		EB79967A22FFFD2B004632FB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1030;
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = "HIDENORI MATSUKI";
 				TargetAttributes = {
-					EB4A755922FDB0C500760BB0 = {
+					EB79968122FFFD2B004632FB = {
 						CreatedOnToolsVersion = 10.3;
 					};
-					EB4A756922FDB0C600760BB0 = {
+					EB79969122FFFD2C004632FB = {
 						CreatedOnToolsVersion = 10.3;
-						TestTargetID = EB4A755922FDB0C500760BB0;
+						TestTargetID = EB79968122FFFD2B004632FB;
 					};
-					EB4A757422FDB0C600760BB0 = {
+					EB79969C22FFFD2C004632FB = {
 						CreatedOnToolsVersion = 10.3;
-						TestTargetID = EB4A755922FDB0C500760BB0;
+						TestTargetID = EB79968122FFFD2B004632FB;
 					};
 				};
 			};
-			buildConfigurationList = EB4A755522FDB0C500760BB0 /* Build configuration list for PBXProject "activity-logger" */;
+			buildConfigurationList = EB79967D22FFFD2B004632FB /* Build configuration list for PBXProject "Activity Logger" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -208,36 +208,36 @@
 				en,
 				Base,
 			);
-			mainGroup = EB4A755122FDB0C500760BB0;
-			productRefGroup = EB4A755B22FDB0C500760BB0 /* Products */;
+			mainGroup = EB79967922FFFD2B004632FB;
+			productRefGroup = EB79968322FFFD2B004632FB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EB4A755922FDB0C500760BB0 /* activity-logger */,
-				EB4A756922FDB0C600760BB0 /* activity-loggerTests */,
-				EB4A757422FDB0C600760BB0 /* activity-loggerUITests */,
+				EB79968122FFFD2B004632FB /* Activity Logger */,
+				EB79969122FFFD2C004632FB /* Activity LoggerTests */,
+				EB79969C22FFFD2C004632FB /* Activity LoggerUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		EB4A755822FDB0C500760BB0 /* Resources */ = {
+		EB79968022FFFD2B004632FB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB4A756022FDB0C600760BB0 /* Assets.xcassets in Resources */,
-				EB4A756322FDB0C600760BB0 /* MainMenu.xib in Resources */,
+				EB79968822FFFD2C004632FB /* Assets.xcassets in Resources */,
+				EB79968B22FFFD2C004632FB /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB4A756822FDB0C600760BB0 /* Resources */ = {
+		EB79969022FFFD2C004632FB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB4A757322FDB0C600760BB0 /* Resources */ = {
+		EB79969B22FFFD2C004632FB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -247,50 +247,50 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EB4A755622FDB0C500760BB0 /* Sources */ = {
+		EB79967E22FFFD2B004632FB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB4A755E22FDB0C500760BB0 /* AppDelegate.swift in Sources */,
+				EB79968622FFFD2B004632FB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB4A756622FDB0C600760BB0 /* Sources */ = {
+		EB79968E22FFFD2C004632FB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB4A756F22FDB0C600760BB0 /* activity_loggerTests.swift in Sources */,
+				EB79969722FFFD2C004632FB /* Activity_LoggerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB4A757122FDB0C600760BB0 /* Sources */ = {
+		EB79969922FFFD2C004632FB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB4A757A22FDB0C600760BB0 /* activity_loggerUITests.swift in Sources */,
+				EB7996A222FFFD2C004632FB /* Activity_LoggerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		EB4A756C22FDB0C600760BB0 /* PBXTargetDependency */ = {
+		EB79969422FFFD2C004632FB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EB4A755922FDB0C500760BB0 /* activity-logger */;
-			targetProxy = EB4A756B22FDB0C600760BB0 /* PBXContainerItemProxy */;
+			target = EB79968122FFFD2B004632FB /* Activity Logger */;
+			targetProxy = EB79969322FFFD2C004632FB /* PBXContainerItemProxy */;
 		};
-		EB4A757722FDB0C600760BB0 /* PBXTargetDependency */ = {
+		EB79969F22FFFD2C004632FB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EB4A755922FDB0C500760BB0 /* activity-logger */;
-			targetProxy = EB4A757622FDB0C600760BB0 /* PBXContainerItemProxy */;
+			target = EB79968122FFFD2B004632FB /* Activity Logger */;
+			targetProxy = EB79969E22FFFD2C004632FB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EB4A756122FDB0C600760BB0 /* MainMenu.xib */ = {
+		EB79968922FFFD2C004632FB /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EB4A756222FDB0C600760BB0 /* Base */,
+				EB79968A22FFFD2C004632FB /* Base */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -298,7 +298,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		EB4A757C22FDB0C600760BB0 /* Debug */ = {
+		EB7996A422FFFD2C004632FB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -359,7 +359,7 @@
 			};
 			name = Debug;
 		};
-		EB4A757D22FDB0C600760BB0 /* Release */ = {
+		EB7996A522FFFD2C004632FB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -413,45 +413,45 @@
 			};
 			name = Release;
 		};
-		EB4A757F22FDB0C600760BB0 /* Debug */ = {
+		EB7996A722FFFD2C004632FB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "activity-logger/activity_logger.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Activity Logger/Activity_Logger.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = EZ2T742X57;
-				INFOPLIST_FILE = "activity-logger/Info.plist";
+				INFOPLIST_FILE = "Activity Logger/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "app.mazgi.macos.activity-logger";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.mazgi.macos.Activity-Logger";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		EB4A758022FDB0C600760BB0 /* Release */ = {
+		EB7996A822FFFD2C004632FB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "activity-logger/activity_logger.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Activity Logger/Activity_Logger.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = EZ2T742X57;
-				INFOPLIST_FILE = "activity-logger/Info.plist";
+				INFOPLIST_FILE = "Activity Logger/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "app.mazgi.macos.activity-logger";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.mazgi.macos.Activity-Logger";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
-		EB4A758222FDB0C600760BB0 /* Debug */ = {
+		EB7996AA22FFFD2C004632FB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -459,20 +459,20 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = EZ2T742X57;
-				INFOPLIST_FILE = "activity-loggerTests/Info.plist";
+				INFOPLIST_FILE = "Activity LoggerTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "app.mazgi.macos.activity-loggerTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.mazgi.macos.Activity-LoggerTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/activity-logger.app/Contents/MacOS/activity-logger";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Activity Logger.app/Contents/MacOS/Activity Logger";
 			};
 			name = Debug;
 		};
-		EB4A758322FDB0C600760BB0 /* Release */ = {
+		EB7996AB22FFFD2C004632FB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -480,99 +480,99 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = EZ2T742X57;
-				INFOPLIST_FILE = "activity-loggerTests/Info.plist";
+				INFOPLIST_FILE = "Activity LoggerTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "app.mazgi.macos.activity-loggerTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.mazgi.macos.Activity-LoggerTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/activity-logger.app/Contents/MacOS/activity-logger";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Activity Logger.app/Contents/MacOS/Activity Logger";
 			};
 			name = Release;
 		};
-		EB4A758522FDB0C600760BB0 /* Debug */ = {
+		EB7996AD22FFFD2C004632FB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = EZ2T742X57;
-				INFOPLIST_FILE = "activity-loggerUITests/Info.plist";
+				INFOPLIST_FILE = "Activity LoggerUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "app.mazgi.macos.activity-loggerUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.mazgi.macos.Activity-LoggerUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "activity-logger";
+				TEST_TARGET_NAME = "Activity Logger";
 			};
 			name = Debug;
 		};
-		EB4A758622FDB0C600760BB0 /* Release */ = {
+		EB7996AE22FFFD2C004632FB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = EZ2T742X57;
-				INFOPLIST_FILE = "activity-loggerUITests/Info.plist";
+				INFOPLIST_FILE = "Activity LoggerUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "app.mazgi.macos.activity-loggerUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.mazgi.macos.Activity-LoggerUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "activity-logger";
+				TEST_TARGET_NAME = "Activity Logger";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EB4A755522FDB0C500760BB0 /* Build configuration list for PBXProject "activity-logger" */ = {
+		EB79967D22FFFD2B004632FB /* Build configuration list for PBXProject "Activity Logger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EB4A757C22FDB0C600760BB0 /* Debug */,
-				EB4A757D22FDB0C600760BB0 /* Release */,
+				EB7996A422FFFD2C004632FB /* Debug */,
+				EB7996A522FFFD2C004632FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EB4A757E22FDB0C600760BB0 /* Build configuration list for PBXNativeTarget "activity-logger" */ = {
+		EB7996A622FFFD2C004632FB /* Build configuration list for PBXNativeTarget "Activity Logger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EB4A757F22FDB0C600760BB0 /* Debug */,
-				EB4A758022FDB0C600760BB0 /* Release */,
+				EB7996A722FFFD2C004632FB /* Debug */,
+				EB7996A822FFFD2C004632FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EB4A758122FDB0C600760BB0 /* Build configuration list for PBXNativeTarget "activity-loggerTests" */ = {
+		EB7996A922FFFD2C004632FB /* Build configuration list for PBXNativeTarget "Activity LoggerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EB4A758222FDB0C600760BB0 /* Debug */,
-				EB4A758322FDB0C600760BB0 /* Release */,
+				EB7996AA22FFFD2C004632FB /* Debug */,
+				EB7996AB22FFFD2C004632FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EB4A758422FDB0C600760BB0 /* Build configuration list for PBXNativeTarget "activity-loggerUITests" */ = {
+		EB7996AC22FFFD2C004632FB /* Build configuration list for PBXNativeTarget "Activity LoggerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EB4A758522FDB0C600760BB0 /* Debug */,
-				EB4A758622FDB0C600760BB0 /* Release */,
+				EB7996AD22FFFD2C004632FB /* Debug */,
+				EB7996AE22FFFD2C004632FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EB4A755222FDB0C500760BB0 /* Project object */;
+	rootObject = EB79967A22FFFD2B004632FB /* Project object */;
 }
