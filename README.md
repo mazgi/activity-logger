@@ -32,6 +32,10 @@ But we planning the feature that stores activity logs to Object Storages like S3
 
 ![activity logs on finder](docs/images/finder_0.png)
 
+## Know Issues
+
+Please see [bugs](https://github.com/mazgi/activity-logger/labels/bug).
+
 ## License
 
 Activity Logger is released under the MIT license. See [LICENSE](https://github.com/mazgi/activity-logger/blob/master/LICENSE) for more information.
