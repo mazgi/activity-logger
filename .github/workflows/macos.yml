@@ -10,4 +10,4 @@ jobs:
     - name: check Xcode
       run: xcode-select -p
     - name: Build the App
-      run: cd 'Activity Logger/' && xcodebuild -target 'Activity Logger' -configuration Release
+      run: cd 'Activity Logger/' && xcodebuild -target 'Activity Logger' -configuration Release CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
