@@ -1,4 +1,4 @@
-name: Automatic Release
+name: macOS alpha release
 
 on:
   push:
@@ -6,14 +6,14 @@ on:
       - master
     tags:
       - v*
-    paths:
-      - Activity Logger/*
 
 jobs:
   build:
     runs-on: macos-latest
     steps:
     - uses: actions/checkout@master
+    - name: Set version for alpha release
+      run: /usr/libexec/PlistBuddy -c "Set :CFBundleVersion ${GITHUB_REF#refs/tags/v}" "Activity Logger/Activity Logger/Info.plist"
     - name: Build the App
       run: cd 'Activity Logger/' && xcodebuild -target 'Activity Logger' -scheme 'Activity Logger' -configuration Release -archivePath build/activity-logger clean archive CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
     - name: Export the App
@@ -27,7 +27,7 @@ jobs:
     - name: Extract the hub command
       run: tar xf /tmp/hub.tgz
     - name: Create a new release via hub command
-      run: hub-*/bin/hub release create -a "Activity Logger.dmg" -m 'Automatic release' ${GITHUB_REF#refs/*/}
+      run: hub-*/bin/hub release create -a "Activity Logger.dmg" -m 'Alpha Release (macOS)' ${GITHUB_REF#refs/*/}
       env:
         GITHUB_USER: mazgi
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
