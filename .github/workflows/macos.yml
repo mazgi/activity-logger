@@ -7,5 +7,7 @@ jobs:
     runs-on: macos-latest
     steps:
     - uses: actions/checkout@master
-    - name: echo
-      run: echo "hello github actions"
+    - name: check Xcode
+      run: xcode-select -p
+    - name: Build the App
+      run: cd 'Activity Logger/' && xcodebuild -target 'Activity Logger' -configuration Release
