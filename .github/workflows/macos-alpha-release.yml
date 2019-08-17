@@ -1,0 +1,33 @@
+name: macOS alpha release
+
+on:
+  push:
+    branches:
+      - master
+    tags:
+      - v*
+
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: Set version for alpha release
+      run: /usr/libexec/PlistBuddy -c "Set :CFBundleVersion ${GITHUB_REF#refs/tags/v}" "Activity Logger/Activity Logger/Info.plist"
+    - name: Build the App
+      run: cd 'Activity Logger/' && xcodebuild -target 'Activity Logger' -scheme 'Activity Logger' -configuration Release -archivePath build/activity-logger clean archive CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
+    - name: Export the App
+      run: cd 'Activity Logger/' && xcodebuild -exportArchive -exportOptionsPlist export-options.plist -archivePath build/activity-logger.xcarchive -exportPath archive/
+    - name: Create tmp DMG image
+      run: hdiutil create /tmp/tmp.dmg -ov -volname "Activity Logger" -fs HFS+ -srcfolder 'Activity Logger/archive'
+    - name: Create fixed DMG image
+      run: hdiutil convert /tmp/tmp.dmg -format UDZO -o "Activity Logger.dmg"
+    - name: Install the hub command
+      run: curl -L -o /tmp/hub.tgz https://github.com/github/hub/releases/download/v2.12.3/hub-darwin-amd64-2.12.3.tgz
+    - name: Extract the hub command
+      run: tar xf /tmp/hub.tgz
+    - name: Create a new release via hub command
+      run: hub-*/bin/hub release create -a "Activity Logger.dmg" -m 'Alpha Release (macOS)' ${GITHUB_REF#refs/*/}
+      env:
+        GITHUB_USER: mazgi
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
